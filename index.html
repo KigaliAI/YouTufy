@@ -1,18 +1,108 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>YouTufy</title>
-  <meta name="description" content="Manage and explore your YouTube subscriptions in one clean dashboard.">
-  <meta name="google-site-verification" content="m8JI32PssgwKK42al1YP4w5k0HHgWhRRto7HC-k9qws" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTufy – Your YouTube Subscriptions Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #28a745;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .btn-group {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .btn {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #218838;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    a {
+      color: #28a745;
+    }
+
+  </style>
 </head>
 <body>
-  <h1>Welcome to YouTufy 👋</h1>
-  <p>YouTufy is your personal dashboard to view, filter, and organize your YouTube subscriptions.</p>
 
+<header>
+  <h1>Welcome to YouTufy</h1>
+  <p>View, filter, and manage all your YouTube subscriptions in one place.</p>
+</header>
+
+<main>
+  <h2>📺 What is YouTufy?</h2>
   <p>
-    <a href="privacy.html">Privacy Policy</a> |
+    YouTufy is a secure and verified tool that lets you:
+  </p>
+  <ul>
+    <li>📋 See your full list of subscribed channels</li>
+    <li>📊 Track subscriber & video stats</li>
+    <li>🧹 Unsubscribe from unwanted channels</li>
+    <li>🔔 Get notified about latest uploads</li>
+    <li>🎯 Organize channels into tags/groups</li>
+  </ul>
+
+  <div class="btn-group">
+    <a href="https://youtufy.app/login" class="btn">🔐 Login</a>
+    <a href="https://youtufy.app/register" class="btn">📝 Register</a>
+  </div>
+
+  <p style="text-align:center; margin-top: 20px;">
+    👀 Read our <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
     <a href="terms.html">Terms of Service</a>
   </p>
+</main>
+
+<footer>
+  &copy; 2025 YouTufy · Developed by Kigali Center of AI
+</footer>
+
 </body>
 </html>
