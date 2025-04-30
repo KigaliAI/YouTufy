@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: "Segoe UI", sans-serif;
-      background: #f9f9f9;
+      background: white;
       color: #333;
     }
 
@@ -34,13 +34,23 @@
       padding: 20px;
     }
 
+    ul {
+      list-style-type: none; /* Removes default bullets */
+      padding: 0;
+    }
+
+    li::before {
+      content: '🟣'; /* Ensures magenta bullets */
+      margin-right: 8px; /* Adds spacing between bullet and text */
+    }
+
     .btn-group {
       text-align: center;
       margin-top: 30px;
     }
 
     .btn {
-      background: #28a745;
+      background: magenta;
       color: white;
       border: none;
       padding: 14px 28px;
@@ -53,7 +63,7 @@
     }
 
     .btn:hover {
-      background: #218838;
+      background: darkmagenta;
     }
 
     footer {
@@ -64,9 +74,8 @@
     }
 
     a {
-      color: #28a745;
+      color: magenta;
     }
-
   </style>
 </head>
 <body>
@@ -82,12 +91,11 @@
     YouTufy is a secure and verified tool that lets you:
   </p>
   <ul>
-    <li>🟣 See your full list of subscribed channels</li>
-    <li>🟣 Track subscriber & video stats</li>
-    <li>🟣 Unsubscribe from unwanted channels</li>
-    <li>🟣 Get notified about latest uploads</li>
-    <li>🟣 Get notified about latest uploads</li>
-    <li>🟣 Organize channels into tags/groups</li>
+    <li>See your full list of subscribed channels</li>
+    <li>Track subscriber & video stats</li>
+    <li>Unsubscribe from unwanted channels</li>
+    <li>Get notified about latest uploads</li>
+    <li>Organize channels into tags/groups</li>
   </ul>
 
   <div class="btn-group">
